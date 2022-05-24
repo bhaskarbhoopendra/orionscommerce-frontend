@@ -54,6 +54,7 @@ const Register = () => {
       <form onSubmit={handleRegister} ref={form}>
         {!successful && (
           <div>
+            <h1 className="text-3xl font-bold underline">Hello World</h1>
             <div className="form-group">
               <label htmlFor="firstName">firstName</label>
               <input

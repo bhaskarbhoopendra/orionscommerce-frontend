@@ -15,7 +15,8 @@ const registerData = {
   },
 };
 const register = (firstName, lastName, email, password) => {
-  return axios.post(`http://localhost:5000/auth/register`, {
+  console.log({ API });
+  return axios.post(`${API}/auth/register`, {
     firstName,
     lastName,
     email,
